@@ -5,7 +5,21 @@ Also, install the [Python extension](https://marketplace.visualstudio.com/items?
 
 ## Usage
 
-### 1. Initialize project
+### 1. Clone repository
+
+```
+# Mac/Linux
+project_name="your_project"
+
+# Windows
+$project_name="your_project"
+
+# Clone repository
+git clone https://github.com/ippee/py_init.git $project_name
+cd ./$project_name
+```
+
+### 2. Initialize project
 
 Run "init.sh" to initialize the repository and create the virtual environment.  
 When the process is finished, VSCode will be launched.
@@ -14,12 +28,12 @@ If you are a Windows user, please rewrite "init.sh" to PowerShell format, run it
 
 After that, **delete "init.sh" for safety.**
 
-### 2. Select interpreter
+### 3. Select interpreter
 
 Open the command palette (Win/Linux: "Ctrl + Shift + P", Mac: "Command + Shift + P") and select `Python: Select Interpreter`, then select `Use Python from 'python.defaultInterpreterPath' setting`.  
 In this way, VSCode will refer to the interpreter on the virtual environment.
 
-### 3. Install packages
+### 4. Install packages
 
 Install packages from your terminal.
 
