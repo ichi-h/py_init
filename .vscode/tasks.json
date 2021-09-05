@@ -4,14 +4,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Create a virtual environment",
+      "label": "Run",
       "type": "shell",
-      "command": [
-        "python -m venv .venv;",
-        "./.venv/Scripts/activate;",
-        "python -m pip install --upgrade pip;",
-        "pip install wheel"
-      ],
+      "command": "python ./src/main.py",
       "problemMatcher": []
     },
     {
@@ -30,12 +25,6 @@
       "label": "Update requirements.txt",
       "type": "shell",
       "command": "pip freeze > requirements.txt",
-      "problemMatcher": []
-    },
-    {
-      "label": "Run",
-      "type": "shell",
-      "command": "python ./src/main.py",
       "problemMatcher": []
     }
   ]
