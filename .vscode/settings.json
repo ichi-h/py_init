@@ -1,7 +1,7 @@
 {
   "files.eol": "\n",
   "terminal.integrated.env.windows": {
-      "PATH": "${workspaceRoot}/venv/Scripts;${env:PATH}"
+      "PATH": "${workspaceRoot}/.venv/Scripts;${env:PATH}"
   },
-  "python.defaultInterpreterPath": "${workspaceRoot}/venv/Scripts/python.exe"
+  "python.defaultInterpreterPath": "${workspaceRoot}/.venv/Scripts/python.exe"
 }
