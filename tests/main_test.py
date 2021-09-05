@@ -5,7 +5,7 @@ from src.main import calc
 
 class Test(unittest.TestCase):
 
-  def test_aaaa(self):
+  def test_calc(self):
     self.assertEqual(3, calc(1, 2))
 
 if __name__ == "__main__":
