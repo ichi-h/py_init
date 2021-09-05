@@ -17,25 +17,25 @@
     {
       "label": "Test",
       "type": "shell",
-      "command": "./venv/Scripts/activate; python setup.py test",
+      "command": "python setup.py test",
       "problemMatcher": []
     },
     {
       "label": "Install packages from requirements.txt",
       "type": "shell",
-      "command": "./venv/Scripts/activate; pip install -r requirements.txt",
+      "command": "pip install -r requirements.txt",
       "problemMatcher": []
     },
     {
       "label": "Update requirements.txt",
       "type": "shell",
-      "command": "./venv/Scripts/activate; pip freeze > requirements.txt",
+      "command": "pip freeze > requirements.txt",
       "problemMatcher": []
     },
     {
       "label": "Run",
       "type": "shell",
-      "command": "./venv/Scripts/activate; python ./src/main.py",
+      "command": "python ./src/main.py",
       "problemMatcher": []
     }
   ]
