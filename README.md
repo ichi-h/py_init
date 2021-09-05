@@ -1,6 +1,8 @@
 # py_init
 
-This project uses venv and assumes that it will be used with VSCode.  
+You can also use [the template in pipenv](https://github.com/ippee/py_init2).
+
+This template uses venv and assumes that it will be used with VSCode.  
 Also, install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) beforehand.
 
 ## Usage
@@ -8,15 +10,8 @@ Also, install the [Python extension](https://marketplace.visualstudio.com/items?
 ### 1. Clone repository
 
 ```
-# Mac/Linux
-project_name="your_project"
-
-# Windows
-$project_name="your_project"
-
-# Clone repository
-git clone https://github.com/ippee/py_init.git $project_name
-cd ./$project_name
+git clone https://github.com/ippee/py_init.git project_name
+cd ./project_name
 ```
 
 ### 2. Initialize project
@@ -43,7 +38,7 @@ At this time, make sure that the terminal is in the virtual environment. (When e
 
 ## Tasks
 
-In this project, frequently used commands are registered in tasks.json.
+In this template, the frequently used commands are registered in tasks.json.
 
 - Run
   - python ./src/main.py
