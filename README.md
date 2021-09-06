@@ -1,8 +1,10 @@
 # py_init
 
-You can also use [the template in pipenv](https://github.com/ippee/py_init2).
+**I recommend using [py_init2](https://github.com/ippee/py_init2) template which uses [pipenv](https://pipenv.pypa.io/en/latest/).**  
 
-This template uses venv and assumes that it will be used with VSCode.  
+===
+
+This template uses [venv](https://docs.python.org/3/library/venv.html) and assumes that it will be used with VSCode.  
 Also, install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) beforehand.
 
 ## Usage
